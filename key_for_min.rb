@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if key_min_value == nil
      key_min_value = value
      key_min_name = name
-    elsif key_min_value < value
+   elsif key_min_value > value
      key_min_value = value
      key_min_name = name
      end
